@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.parent {
+  background-color: hsl(180, 86%, 11%);
+  padding: 50px;
+  margin: 0 auto;
+  /* width: 500px; */
+  width: 80%;
+}
+.child {
+  background-color: mediumaquamarine;
+  height: 250px;
+}
+
+/*
+
+___________________________ RULE _______________________________________________________
+
+ALWAYS USE WIDTH IN PERCENTAGES INSTEAD OF PIXEL TO MAKE THE OBJECT RESPONSIVE ===================
+
+===================================================================================
+
+IF WE GIVE IT WIDTH 80% THEN IT WILL WORK ACCORDING TO ITS PARENT WIDTH
+
+
+
+
+
+*/
