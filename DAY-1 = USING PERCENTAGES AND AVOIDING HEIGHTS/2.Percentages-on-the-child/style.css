@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.parent {
+  background-color: brown;
+  padding: 50px;
+  margin: 0 auto;
+  width: 80%;
+  overflow: auto;
+}
+.child {
+  background-color: aqua;
+  height: 250px;
+  padding: 40px;
+  width: 50%;
+  float: left;
+}
+.child2 {
+  background-color: aqua;
+  height: 250px;
+  padding: 30px;
+  width: 50%;
+  float: right;
+}
+
+/*
+
+IF WE GIVE PERCENTAGE TO THE CHILD THEN IT WILL TAKE PERCENTAGE ACCORDING TO ITS PARENT ELEMENT and behave according to that only
+
+
+*/
