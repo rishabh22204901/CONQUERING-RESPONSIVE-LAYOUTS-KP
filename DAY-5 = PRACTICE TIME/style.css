@@ -15,12 +15,11 @@ body {
 .container {
   background-color: var(--clr-primary);
   color: aliceblue;
-  width: 80%;
-  margin: 50px auto;
 }
 .sub-container {
-  width: 70%;
-  padding: 200px 150px;
+  width: 80%;
+  padding: 100px 0px;
+  margin: 0 auto;
 }
 h1 {
   text-transform: uppercase;
@@ -34,13 +33,17 @@ p {
   line-height: 30px;
 }
 button {
+  display: inline-block;
   font-size: 21px;
   text-transform: uppercase;
   font-weight: 400px;
   margin: 40px 0;
   padding: 25px 50px;
   background-color: var(--clr--tertiary);
-  border-radius: 10rem;
+  border-radius: 100px;
   letter-spacing: 0.2rem;
   border: none;
+}
+.hero-text {
+  width: 60%;
 }
