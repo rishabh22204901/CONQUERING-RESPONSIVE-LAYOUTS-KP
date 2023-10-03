@@ -9,4 +9,4 @@ As the name suggests, This boot-camp is mainly focused on to teach us about How 
 
 ## Credit
 I got to know about this great boot camp from my friend Keenen who is more like my brother 
-To follow him [CLICK-HERE](https://github.com/webdevkeenan) If you want to 
+you can [CLICK-HERE](https://github.com/webdevkeenan) If you want to know more about him 
