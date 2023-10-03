@@ -6,3 +6,7 @@ As the name suggest, This boot-camp is mainly focused on making any website resp
 
 ## Link of this Bootcamp 
 [CLICK HERE](https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts)
+
+## Credit
+I got to know about this great boot camp from my friend Keenen who is more like my brother 
+To follow him [CLICK-HERE](https://github.com/webdevkeenan) If you want to 
