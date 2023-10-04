@@ -48,3 +48,6 @@ button:hover {
   display: flex;
   align-items: flex-start;
 }
+img {
+  width: 100%;
+}
