@@ -1,3 +1,5 @@
+/*To make any image responsive, Give the with of image 100% then it will work according to the width of div element*/
+
 * {
   padding: 0%;
   margin: 0;
@@ -20,7 +22,7 @@ body {
 h1 {
   font-size: 48px;
   line-height: 50px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 50px;
 }
 p {
@@ -52,4 +54,7 @@ button:hover {
 .img {
   width: 30%;
   border: 2px solid red;
+}
+img {
+  width: 100%;
 }
