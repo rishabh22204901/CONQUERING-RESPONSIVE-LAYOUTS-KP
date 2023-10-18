@@ -16,6 +16,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 2px solid;
 }
 .hero {
   background-color: var(--clr-primary);
@@ -37,4 +38,22 @@
 }
 .brown {
   color: var(--clr-secondary);
+}
+.text-one {
+  text-align: center;
+  color: var(--clr-secondary);
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.text-two {
+  font-size: 21px;
+  width: 80vw;
+  display: flex;
+  margin: 0 auto;
+  gap: 50px;
+}
+p {
+  width: 50%;
 }
