@@ -1,0 +1,33 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  width: 90%;
+  background-color: rgb(84, 84, 236);
+  padding: 250px 0;
+  margin: 100px auto;
+}
+
+/* Media-Query */
+
+/* MIN-WIDTH === It means starting from 600px to max dimension of the screen */
+@media screen and (min-width: 600px) {
+  .container {
+    background-color: aqua;
+  }
+}
+
+/* MAX-WIDTH === It means from 0px to 500px*/
+@media screen and (max-width: 500px) {
+  .container {
+    background-color: rgb(232, 179, 45);
+  }
+}
