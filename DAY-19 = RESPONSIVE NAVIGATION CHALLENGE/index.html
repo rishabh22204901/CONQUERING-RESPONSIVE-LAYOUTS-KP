@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Conquering Responsive Layouts</title>
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
       rel="stylesheet"
     />
@@ -28,12 +32,17 @@
             <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
           </ul>
           <ul class="nav__list">
-            <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Sign In</a>
+            </li>
             <li class="nav__item">
               <a href="#" class="nav__link nav__link--button">Sign up</a>
             </li>
           </ul>
         </nav>
+        <button class="special-btn" id="ham-burger">
+          <i class="fas fa-bars" id="burger"></i>
+        </button>
       </div>
     </header>
 
@@ -99,5 +108,7 @@
         </p>
       </aside>
     </main>
+    <!-- javascript -->
+    <script src="script.js"></script>
   </body>
 </html>

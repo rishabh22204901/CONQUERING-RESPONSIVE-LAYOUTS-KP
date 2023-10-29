@@ -123,7 +123,17 @@ header {
 .primary-content {
   width: 62%;
 }
-
+#burger {
+  font-size: 1.9rem;
+  background-color: transparent;
+  color: #fff;
+  display: none;
+}
+#ham-burger {
+  display: none;
+  border-radius: 50px;
+  background-color: black;
+}
 .sidebar {
   width: 32%;
   padding: 1em;
@@ -178,10 +188,34 @@ nav {
     margin-top: 80px;
     margin-bottom: 80px;
   }
-  .nav---list {
+  #burger {
+    display: block;
+  }
+  #ham-burger {
+    display: block;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+  }
+  .container {
+    display: block;
+    text-align: center;
+  }
+  .nav {
+    display: block;
+    margin-top: 20px;
     display: none;
   }
-  .nav__link {
+  .nav__list {
+    display: block;
+  }
+  .nav__item {
+    margin-bottom: 30px;
+  }
+  .nav-close {
     display: none;
+  }
+  .nav-open {
+    display: block;
   }
 }
