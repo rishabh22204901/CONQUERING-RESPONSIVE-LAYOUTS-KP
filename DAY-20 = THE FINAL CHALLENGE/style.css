@@ -18,3 +18,23 @@ Variables
   padding: 0%;
   box-sizing: border-box;
 }
+.container {
+  text-align: center;
+}
+header {
+  background-color: var(--clr-primary-1);
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+nav ul li {
+  margin: 20px 0;
+}
+nav {
+  padding-bottom: 10px;
+}
+.logo-img {
+  margin-top: 10px;
+}
