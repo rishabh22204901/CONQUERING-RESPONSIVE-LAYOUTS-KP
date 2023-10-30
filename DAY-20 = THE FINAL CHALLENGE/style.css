@@ -37,4 +37,20 @@ nav {
 }
 .logo-img {
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+.toggle-btn {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 2.5px 6px;
+}
+nav {
+  display: none;
+}
+.nav-open {
+  display: block;
 }
