@@ -126,3 +126,7 @@ nav {
   color: var(--clr-primary-5);
   text-transform: capitalize;
 }
+.sub-header {
+  width: 80vw;
+  margin: 0 auto;
+}
