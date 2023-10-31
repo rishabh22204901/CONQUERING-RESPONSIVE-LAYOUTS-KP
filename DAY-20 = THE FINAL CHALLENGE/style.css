@@ -19,6 +19,15 @@ Variables
   padding: 0%;
   box-sizing: border-box;
 }
+/*
+=======================
+Header
+======================
+*/
+.sub-header {
+  width: 80vw;
+  margin: 0 auto;
+}
 .container {
   text-align: center;
 }
@@ -76,6 +85,11 @@ nav {
 .toggle-btn:hover {
   transform: scale(0.9);
 }
+/*
+==================
+Hero-Section
+==================
+*/
 .hero {
   background-color: var(--clr-primary-2);
   height: calc(100vh - 48.5px);
@@ -125,8 +139,4 @@ nav {
   margin-bottom: 10px;
   color: var(--clr-primary-5);
   text-transform: capitalize;
-}
-.sub-header {
-  width: 80vw;
-  margin: 0 auto;
 }
