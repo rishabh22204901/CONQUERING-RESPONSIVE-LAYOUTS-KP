@@ -140,3 +140,42 @@ Hero-Section
   color: var(--clr-primary-5);
   text-transform: capitalize;
 }
+.main-img {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 80vw;
+  margin: 20px 0;
+}
+.mainframe {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.sub-mainframe {
+  margin: 40px 0;
+  text-align: left;
+}
+.img-section h1 {
+  color: var(--clr-primary-5);
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.img-text-section {
+  margin: 40px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.img-text-section h1::first-letter {
+  text-transform: capitalize;
+}
+.break,
+.work,
+.ascend {
+  background-color: var(--clr-primary-1);
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.img-text-section h1 {
+  margin-bottom: 10px;
+}
