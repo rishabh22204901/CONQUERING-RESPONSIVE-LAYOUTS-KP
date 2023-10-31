@@ -179,3 +179,34 @@ Hero-Section
 .img-text-section h1 {
   margin-bottom: 10px;
 }
+.last-section {
+  background-color: var(--clr-primary-2);
+  padding: 80px 0;
+  margin-top: 80px;
+}
+.head h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.last h2 {
+  color: var(--clr-primary-5);
+  text-transform: capitalize;
+}
+.last p {
+  color: rgb(245, 242, 242);
+  margin: 10px;
+}
+.sub-head p span {
+  margin-bottom: 10px;
+}
+.getting-around,
+.other-things,
+.and-more p {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.last {
+  width: 80vw;
+  margin: 0 auto;
+}
