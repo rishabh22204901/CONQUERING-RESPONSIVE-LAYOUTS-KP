@@ -108,3 +108,21 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.info {
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+}
+.main-info {
+  background-color: rgb(218, 217, 217);
+  padding: 80px 0;
+}
+.mobile,
+.efficient {
+  margin-bottom: 40px;
+}
+.info h1 {
+  margin-bottom: 10px;
+  color: var(--clr-primary-5);
+  text-transform: capitalize;
+}
