@@ -54,7 +54,7 @@ nav {
 .toggle-btn {
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 40px;
   margin-top: 10px;
   font-size: 16px;
   background-color: transparent;
@@ -211,4 +211,20 @@ Hero-Section
 .last {
   width: 80vw;
   margin: 0 auto;
+}
+
+@media (min-width: 700px) {
+  .img-text-section {
+    display: flex;
+    gap: 20px;
+  }
+  .main-img {
+    height: 50vh;
+  }
+  .last-special {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+  }
 }
