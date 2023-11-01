@@ -288,4 +288,20 @@ Hero-Section
   .info h1 {
     font-size: 30px;
   }
+  .last-special {
+    display: flex;
+    gap: 100px;
+  }
+  .sub-head {
+    display: flex;
+    gap: 100px;
+  }
+  .about-our-company {
+    text-align: left;
+    width: 40%;
+    margin-top: 20px;
+  }
+  .head h1 {
+    font-size: 44px;
+  }
 }
