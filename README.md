@@ -10,3 +10,4 @@ As the name suggests, This boot-camp is mainly focused on to teach us about How 
 ## Credit
 I got to know about this great boot camp from my friend Keenen who is more like my brother 
 you can [CLICK-HERE](https://github.com/webdevkeenan) If you want to know more about him 
+[Conquering Responsive Layouts-certificate.pdf](https://github.com/rishabh22204901/CONQUERING-RESPONSIVE-LAYOUTS-KP/files/13225289/Conquering.Responsive.Layouts-certificate.pdf)
