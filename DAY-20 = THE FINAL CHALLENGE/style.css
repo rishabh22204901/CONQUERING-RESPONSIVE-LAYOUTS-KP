@@ -231,3 +231,30 @@ Hero-Section
     left: 80px;
   }
 }
+@media (min-width: 1000px) {
+  .toggle-btn {
+    display: none;
+  }
+  .nav {
+    height: auto;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo-img {
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+}
